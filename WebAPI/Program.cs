@@ -103,7 +103,7 @@ public class Program
         if (app.Environment.IsProduction())
             app.ConfigureCustomExceptionMiddleware();
 
-        app.UseAuthorization();
+        app.UseAuthentication();
         app.UseAuthorization();
 
         app.MapControllers();
