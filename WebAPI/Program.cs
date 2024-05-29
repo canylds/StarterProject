@@ -1,5 +1,5 @@
 
-using Core.CrossCuttingConcerns.Exceptions.Extensions;
+using Core.CrossCuttingConcerns.Exception.Extensions;
 using Core.Security.Encryption;
 using Core.Security.Jwt;
 using Microsoft.AspNetCore.Authentication.JwtBearer;

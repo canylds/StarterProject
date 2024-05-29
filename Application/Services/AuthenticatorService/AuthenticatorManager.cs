@@ -1,5 +1,5 @@
 ﻿using Application.Services.Repositories;
-using Core.CrossCuttingConcerns.Exceptions.Types;
+using Core.CrossCuttingConcerns.Exception.Types;
 using Core.Mailing;
 using Core.Security.EmailAuthenticator;
 using Core.Security.Enums;
